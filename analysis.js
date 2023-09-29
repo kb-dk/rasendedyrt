@@ -284,6 +284,7 @@ exports.updateData = async function (dataDir, done) {
     console.log("Fetching data for date: " + today);
     const storeFetchPromises = [];
     for (const store of STORE_KEYS) {
+        console.log(`Initiating fetching for Store Key ${store}`);
         storeFetchPromises.push(
             new Promise(async (resolve) => {
                 const start = performance.now();

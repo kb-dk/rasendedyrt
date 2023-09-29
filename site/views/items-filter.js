@@ -81,7 +81,7 @@ class ItemsFilter extends View {
                 <custom-checkbox x-id="bio" x-state x-change label="${__("ItemsFilter_Nur Bio")}"></custom-checkbox>
                 <custom-checkbox x-id="exact" x-state x-change label="${__("ItemsFilter_Exaktes Wort")}"></custom-checkbox>
                 <label class="cursor-pointer inline-flex items-center gap-x-1 rounded-full bg-white border border-gray-400 px-2 py-1 text-xs font-medium text-gray-600">
-                ${__("ItemsFilter_Preis €")} <input x-id="minPrice" x-state x-input class="w-12" type="number" min="0" value="0">
+                ${__("ItemsFilter_Preis kr.")} <input x-id="minPrice" x-state x-input class="w-12" type="number" min="0" value="0">
                     -
                     <input x-id="maxPrice" x-state x-input-debounce class="w-12" type="number" min="0" value="100">
                 </label>
